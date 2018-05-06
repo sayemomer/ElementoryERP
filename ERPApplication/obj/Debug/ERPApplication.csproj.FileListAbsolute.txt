@@ -1,0 +1,137 @@
+C:\Users\User\Desktop\C#\ERPSystem\ERPApplication\bin\Debug\ERPApplication.exe.config
+C:\Users\User\Desktop\C#\ERPSystem\ERPApplication\bin\Debug\ERPApplication.exe
+C:\Users\User\Desktop\C#\ERPSystem\ERPApplication\bin\Debug\ERPApplication.pdb
+C:\Users\User\Desktop\C#\ERPSystem\ERPApplication\obj\Debug\ERPApplication.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\C#\ERPSystem\ERPApplication\obj\Debug\ERPApplication.Properties.Resources.resources
+C:\Users\User\Desktop\C#\ERPSystem\ERPApplication\obj\Debug\ERPApplication.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\C#\ERPSystem\ERPApplication\obj\Debug\ERPApplication.exe
+C:\Users\User\Desktop\C#\ERPSystem\ERPApplication\obj\Debug\ERPApplication.pdb
+H:\ERPSystem\ERPApplication\bin\Debug\ERPApplication.exe.config
+H:\ERPSystem\ERPApplication\obj\Debug\ERPApplication.exe
+H:\ERPSystem\ERPApplication\obj\Debug\ERPApplication.pdb
+H:\ERPSystem\ERPApplication\bin\Debug\ERPApplication.exe
+H:\ERPSystem\ERPApplication\bin\Debug\ERPApplication.pdb
+H:\ERPSystem\ERPApplication\obj\Debug\ERPApplication.csprojResolveAssemblyReference.cache
+H:\ERPSystem\ERPApplication\obj\Debug\ERPApplication.Properties.Resources.resources
+H:\ERPSystem\ERPApplication\obj\Debug\ERPApplication.csproj.GenerateResource.Cache
+H:\ERPSystem\ERPApplication\obj\Debug\ERPApplication.Login.resources
+H:\ERPSystem\ERPApplication\obj\Debug\ERPApplication.AdminDashboard.resources
+H:\ERPSystem\ERPApplication\obj\Debug\ERPApplication.Sales.resources
+H:\ERPSystem\ERPApplication\obj\Debug\ERPApplication.Deals.resources
+H:\ERPSystem\ERPApplication\obj\Debug\ERPApplication.Inventory.resources
+H:\ERPSystem\ERPApplication\bin\Debug\ERPRepository.dll
+H:\ERPSystem\ERPApplication\bin\Debug\ERPRepository.pdb
+H:\ERPSystem\ERPApplication\obj\Debug\ERPApplication.Marketing.resources
+H:\ERPSystem\ERPApplication\obj\Debug\ERPApplication.HumanResource.resources
+H:\ERPSystem\ERPApplication\obj\Debug\ERPApplication.Accounting.resources
+H:\ERPSystem\ERPApplication\bin\Debug\ERPDB.mdf
+H:\ERPSystem\ERPApplication\bin\Debug\ERPDB_log.ldf
+H:\ERPSystem\ERPApplication\obj\Debug\ERPApplication.Finance.resources
+C:\Users\P\Desktop\C# project\ERPApplication\bin\Debug\ERPApplication.exe.config
+C:\Users\P\Desktop\C# project\ERPApplication\obj\Debug\ERPApplication.exe
+C:\Users\P\Desktop\C# project\ERPApplication\obj\Debug\ERPApplication.pdb
+C:\Users\P\Desktop\C# project\ERPApplication\bin\Debug\ERPDB.mdf
+C:\Users\P\Desktop\C# project\ERPApplication\bin\Debug\ERPDB_log.ldf
+C:\Users\P\Desktop\C# project\ERPApplication\bin\Debug\ERPApplication.exe
+C:\Users\P\Desktop\C# project\ERPApplication\bin\Debug\ERPApplication.pdb
+C:\Users\P\Desktop\C# project\ERPApplication\bin\Debug\ERPRepository.dll
+C:\Users\P\Desktop\C# project\ERPApplication\bin\Debug\ERPRepository.pdb
+C:\Users\P\Desktop\C# project\ERPApplication\obj\Debug\ERPApplication.csprojResolveAssemblyReference.cache
+C:\Users\P\Desktop\C# project\ERPApplication\obj\Debug\ERPApplication.Accounting.resources
+C:\Users\P\Desktop\C# project\ERPApplication\obj\Debug\ERPApplication.AdminDashboard.resources
+C:\Users\P\Desktop\C# project\ERPApplication\obj\Debug\ERPApplication.Deals.resources
+C:\Users\P\Desktop\C# project\ERPApplication\obj\Debug\ERPApplication.Finance.resources
+C:\Users\P\Desktop\C# project\ERPApplication\obj\Debug\ERPApplication.HumanResource.resources
+C:\Users\P\Desktop\C# project\ERPApplication\obj\Debug\ERPApplication.Inventory.resources
+C:\Users\P\Desktop\C# project\ERPApplication\obj\Debug\ERPApplication.Login.resources
+C:\Users\P\Desktop\C# project\ERPApplication\obj\Debug\ERPApplication.Marketing.resources
+C:\Users\P\Desktop\C# project\ERPApplication\obj\Debug\ERPApplication.Properties.Resources.resources
+C:\Users\P\Desktop\C# project\ERPApplication\obj\Debug\ERPApplication.Sales.resources
+C:\Users\P\Desktop\C# project\ERPApplication\obj\Debug\ERPApplication.csproj.GenerateResource.Cache
+H:\ERP\ERPApplication\bin\Debug\ERPApplication.exe.config
+H:\ERP\ERPApplication\obj\Debug\ERPApplication.exe
+H:\ERP\ERPApplication\obj\Debug\ERPApplication.pdb
+H:\ERP\ERPApplication\bin\Debug\ERPDB.mdf
+H:\ERP\ERPApplication\bin\Debug\ERPDB_log.ldf
+H:\ERP\ERPApplication\bin\Debug\ERPApplication.exe
+H:\ERP\ERPApplication\bin\Debug\ERPApplication.pdb
+H:\ERP\ERPApplication\bin\Debug\ERPRepository.dll
+H:\ERP\ERPApplication\bin\Debug\ERPRepository.pdb
+H:\ERP\ERPApplication\obj\Debug\ERPApplication.csprojResolveAssemblyReference.cache
+H:\ERP\ERPApplication\obj\Debug\ERPApplication.Accounting.resources
+H:\ERP\ERPApplication\obj\Debug\ERPApplication.AdminDashboard.resources
+H:\ERP\ERPApplication\obj\Debug\ERPApplication.Deals.resources
+H:\ERP\ERPApplication\obj\Debug\ERPApplication.Finance.resources
+H:\ERP\ERPApplication\obj\Debug\ERPApplication.HumanResource.resources
+H:\ERP\ERPApplication\obj\Debug\ERPApplication.Inventory.resources
+H:\ERP\ERPApplication\obj\Debug\ERPApplication.Login.resources
+H:\ERP\ERPApplication\obj\Debug\ERPApplication.Marketing.resources
+H:\ERP\ERPApplication\obj\Debug\ERPApplication.Properties.Resources.resources
+H:\ERP\ERPApplication\obj\Debug\ERPApplication.Sales.resources
+H:\ERP\ERPApplication\obj\Debug\ERPApplication.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\erp\ERPApplication\bin\Debug\ERPApplication.exe.config
+C:\Users\User\Desktop\erp\ERPApplication\obj\Debug\ERPApplication.exe
+C:\Users\User\Desktop\erp\ERPApplication\obj\Debug\ERPApplication.pdb
+C:\Users\User\Desktop\erp\ERPApplication\bin\Debug\ERPDB.mdf
+C:\Users\User\Desktop\erp\ERPApplication\bin\Debug\ERPDB_log.ldf
+C:\Users\User\Desktop\erp\ERPApplication\bin\Debug\ERPApplication.exe
+C:\Users\User\Desktop\erp\ERPApplication\bin\Debug\ERPApplication.pdb
+C:\Users\User\Desktop\erp\ERPApplication\bin\Debug\ERPRepository.dll
+C:\Users\User\Desktop\erp\ERPApplication\bin\Debug\ERPRepository.pdb
+C:\Users\User\Desktop\erp\ERPApplication\obj\Debug\ERPApplication.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\erp\ERPApplication\obj\Debug\ERPApplication.Accounting.resources
+C:\Users\User\Desktop\erp\ERPApplication\obj\Debug\ERPApplication.AdminDashboard.resources
+C:\Users\User\Desktop\erp\ERPApplication\obj\Debug\ERPApplication.Deals.resources
+C:\Users\User\Desktop\erp\ERPApplication\obj\Debug\ERPApplication.Finance.resources
+C:\Users\User\Desktop\erp\ERPApplication\obj\Debug\ERPApplication.HumanResource.resources
+C:\Users\User\Desktop\erp\ERPApplication\obj\Debug\ERPApplication.Inventory.resources
+C:\Users\User\Desktop\erp\ERPApplication\obj\Debug\ERPApplication.Login.resources
+C:\Users\User\Desktop\erp\ERPApplication\obj\Debug\ERPApplication.Marketing.resources
+C:\Users\User\Desktop\erp\ERPApplication\obj\Debug\ERPApplication.Properties.Resources.resources
+C:\Users\User\Desktop\erp\ERPApplication\obj\Debug\ERPApplication.Sales.resources
+C:\Users\User\Desktop\erp\ERPApplication\obj\Debug\ERPApplication.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\erp\ERPApplication\obj\Debug\ERPApplication.IT.resources
+H:\ERPLTS\ERP4\ERPApplication\bin\Debug\ERPApplication.exe.config
+H:\ERPLTS\ERP4\ERPApplication\obj\Debug\ERPApplication.exe
+H:\ERPLTS\ERP4\ERPApplication\obj\Debug\ERPApplication.pdb
+H:\ERPLTS\ERP4\ERPApplication\bin\Debug\ERPDB.mdf
+H:\ERPLTS\ERP4\ERPApplication\bin\Debug\ERPDB_log.ldf
+H:\ERPLTS\ERP4\ERPApplication\bin\Debug\ERPApplication.exe
+H:\ERPLTS\ERP4\ERPApplication\bin\Debug\ERPApplication.pdb
+H:\ERPLTS\ERP4\ERPApplication\bin\Debug\ERPRepository.dll
+H:\ERPLTS\ERP4\ERPApplication\bin\Debug\ERPRepository.pdb
+H:\ERPLTS\ERP4\ERPApplication\obj\Debug\ERPApplication.csprojResolveAssemblyReference.cache
+H:\ERPLTS\ERP4\ERPApplication\obj\Debug\ERPApplication.Accounting.resources
+H:\ERPLTS\ERP4\ERPApplication\obj\Debug\ERPApplication.AdminDashboard.resources
+H:\ERPLTS\ERP4\ERPApplication\obj\Debug\ERPApplication.Deals.resources
+H:\ERPLTS\ERP4\ERPApplication\obj\Debug\ERPApplication.Finance.resources
+H:\ERPLTS\ERP4\ERPApplication\obj\Debug\ERPApplication.HumanResource.resources
+H:\ERPLTS\ERP4\ERPApplication\obj\Debug\ERPApplication.Inventory.resources
+H:\ERPLTS\ERP4\ERPApplication\obj\Debug\ERPApplication.IT.resources
+H:\ERPLTS\ERP4\ERPApplication\obj\Debug\ERPApplication.Login.resources
+H:\ERPLTS\ERP4\ERPApplication\obj\Debug\ERPApplication.Marketing.resources
+H:\ERPLTS\ERP4\ERPApplication\obj\Debug\ERPApplication.Properties.Resources.resources
+H:\ERPLTS\ERP4\ERPApplication\obj\Debug\ERPApplication.Sales.resources
+H:\ERPLTS\ERP4\ERPApplication\obj\Debug\ERPApplication.csproj.GenerateResource.Cache
+C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPApplication\bin\Debug\ERPApplication.exe.config
+C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPApplication\obj\Debug\ERPApplication.exe
+C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPApplication\obj\Debug\ERPApplication.pdb
+C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPApplication\bin\Debug\ERPDB.mdf
+C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPApplication\bin\Debug\ERPDB_log.ldf
+C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPApplication\bin\Debug\ERPApplication.exe
+C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPApplication\bin\Debug\ERPApplication.pdb
+C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPApplication\bin\Debug\ERPRepository.dll
+C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPApplication\bin\Debug\ERPRepository.pdb
+C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPApplication\obj\Debug\ERPApplication.csprojResolveAssemblyReference.cache
+C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPApplication\obj\Debug\ERPApplication.Accounting.resources
+C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPApplication\obj\Debug\ERPApplication.AdminDashboard.resources
+C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPApplication\obj\Debug\ERPApplication.Deals.resources
+C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPApplication\obj\Debug\ERPApplication.Finance.resources
+C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPApplication\obj\Debug\ERPApplication.HumanResource.resources
+C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPApplication\obj\Debug\ERPApplication.Inventory.resources
+C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPApplication\obj\Debug\ERPApplication.IT.resources
+C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPApplication\obj\Debug\ERPApplication.Login.resources
+C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPApplication\obj\Debug\ERPApplication.Marketing.resources
+C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPApplication\obj\Debug\ERPApplication.Properties.Resources.resources
+C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPApplication\obj\Debug\ERPApplication.Sales.resources
+C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPApplication\obj\Debug\ERPApplication.csproj.GenerateResource.Cache
