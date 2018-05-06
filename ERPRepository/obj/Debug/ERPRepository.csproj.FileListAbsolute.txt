@@ -1,0 +1,52 @@
+C:\Users\User\Desktop\C#\ERPSystem\ERPRepository\bin\Debug\ERPRepository.dll
+C:\Users\User\Desktop\C#\ERPSystem\ERPRepository\bin\Debug\ERPRepository.pdb
+C:\Users\User\Desktop\C#\ERPSystem\ERPRepository\obj\Debug\ERPRepository.dll
+C:\Users\User\Desktop\C#\ERPSystem\ERPRepository\obj\Debug\ERPRepository.pdb
+H:\ERPSystem\ERPRepository\bin\Debug\ERPRepository.dll
+H:\ERPSystem\ERPRepository\bin\Debug\ERPRepository.pdb
+H:\ERPSystem\ERPRepository\obj\Debug\ERPRepository.dll
+H:\ERPSystem\ERPRepository\obj\Debug\ERPRepository.pdb
+H:\ERPSystem\ERPRepository\obj\Debug\ERPRepository.csprojResolveAssemblyReference.cache
+H:\ERPSystem\ERPRepository\bin\Debug\ERPDB.mdf
+H:\ERPSystem\ERPRepository\bin\Debug\ERPDB_log.ldf
+H:\ERPSystem\ERPRepository\bin\Debug\ERPRepository.dll.config
+C:\Users\P\Desktop\C# project\ERPRepository\bin\Debug\ERPDB.mdf
+C:\Users\P\Desktop\C# project\ERPRepository\bin\Debug\ERPDB_log.ldf
+C:\Users\P\Desktop\C# project\ERPRepository\bin\Debug\ERPRepository.dll.config
+C:\Users\P\Desktop\C# project\ERPRepository\bin\Debug\ERPRepository.dll
+C:\Users\P\Desktop\C# project\ERPRepository\bin\Debug\ERPRepository.pdb
+C:\Users\P\Desktop\C# project\ERPRepository\obj\Debug\ERPRepository.csprojResolveAssemblyReference.cache
+C:\Users\P\Desktop\C# project\ERPRepository\obj\Debug\ERPRepository.dll
+C:\Users\P\Desktop\C# project\ERPRepository\obj\Debug\ERPRepository.pdb
+H:\ERP\ERPRepository\bin\Debug\ERPDB.mdf
+H:\ERP\ERPRepository\bin\Debug\ERPDB_log.ldf
+H:\ERP\ERPRepository\bin\Debug\ERPRepository.dll.config
+H:\ERP\ERPRepository\bin\Debug\ERPRepository.dll
+H:\ERP\ERPRepository\bin\Debug\ERPRepository.pdb
+H:\ERP\ERPRepository\obj\Debug\ERPRepository.csprojResolveAssemblyReference.cache
+H:\ERP\ERPRepository\obj\Debug\ERPRepository.dll
+H:\ERP\ERPRepository\obj\Debug\ERPRepository.pdb
+C:\Users\User\Desktop\erp\ERPRepository\bin\Debug\ERPDB.mdf
+C:\Users\User\Desktop\erp\ERPRepository\bin\Debug\ERPDB_log.ldf
+C:\Users\User\Desktop\erp\ERPRepository\bin\Debug\ERPRepository.dll.config
+C:\Users\User\Desktop\erp\ERPRepository\bin\Debug\ERPRepository.dll
+C:\Users\User\Desktop\erp\ERPRepository\bin\Debug\ERPRepository.pdb
+C:\Users\User\Desktop\erp\ERPRepository\obj\Debug\ERPRepository.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\erp\ERPRepository\obj\Debug\ERPRepository.dll
+C:\Users\User\Desktop\erp\ERPRepository\obj\Debug\ERPRepository.pdb
+H:\ERPLTS\ERP4\ERPRepository\bin\Debug\ERPDB.mdf
+H:\ERPLTS\ERP4\ERPRepository\bin\Debug\ERPDB_log.ldf
+H:\ERPLTS\ERP4\ERPRepository\bin\Debug\ERPRepository.dll.config
+H:\ERPLTS\ERP4\ERPRepository\bin\Debug\ERPRepository.dll
+H:\ERPLTS\ERP4\ERPRepository\bin\Debug\ERPRepository.pdb
+H:\ERPLTS\ERP4\ERPRepository\obj\Debug\ERPRepository.csprojResolveAssemblyReference.cache
+H:\ERPLTS\ERP4\ERPRepository\obj\Debug\ERPRepository.dll
+H:\ERPLTS\ERP4\ERPRepository\obj\Debug\ERPRepository.pdb
+C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPRepository\bin\Debug\ERPDB.mdf
+C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPRepository\bin\Debug\ERPDB_log.ldf
+C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPRepository\bin\Debug\ERPRepository.dll.config
+C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPRepository\bin\Debug\ERPRepository.dll
+C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPRepository\bin\Debug\ERPRepository.pdb
+C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPRepository\obj\Debug\ERPRepository.csprojResolveAssemblyReference.cache
+C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPRepository\obj\Debug\ERPRepository.dll
+C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPRepository\obj\Debug\ERPRepository.pdb
