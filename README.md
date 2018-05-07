@@ -38,7 +38,7 @@ For demo data use Id : A01 and Password : abcde
 ```
 
 
-(<a href="https://imgflip.com/gif/29t6ny"><img src="https://i.imgflip.com/29t6ny.gif" width="300" height="300"/></a>)
+(<a href="https://imgflip.com/gif/29t6ny"><img src="https://i.imgflip.com/29t6ny.gif" /></a>)
 
 ## Running the tests
 
