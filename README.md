@@ -46,6 +46,16 @@ For demo data use Id : A01 and Password : abcde
 
 <a href="https://imgflip.com/gif/29t73x"><img src="https://i.imgflip.com/29t73x.gif" title="made at imgflip.com"/></a>
 
+### Modules
+
+1. Admin
+1. MARKETING
+1. SALES
+1. HUMAN RESOURCE
+1. ACCOUNTING
+1. Finance
+1. IT
+
 
 ### And coding style tests
 
