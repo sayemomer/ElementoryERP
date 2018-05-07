@@ -40,6 +40,8 @@ For demo data use Id : A01 and Password : abcde
 
 (<a href="https://imgflip.com/gif/29t6ny"><img src="https://i.imgflip.com/29t6ny.gif" /></a>)
 
+<a href="https://imgflip.com/gif/29t73x"><img src="https://i.imgflip.com/29t73x.gif" title="made at imgflip.com"/></a>
+
 ## Running the tests
 
 Explain how to run the automated tests for this system
