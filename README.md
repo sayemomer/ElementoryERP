@@ -57,7 +57,7 @@ For demo data use Id : A01 and Password : abcde
 1. IT
 
 
-### And coding style tests
+### coding style 
 
 Camel Case Class name
 
