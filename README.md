@@ -6,10 +6,10 @@ Integrate business process management of an organization by using a system of in
 
 ### Prerequisites
 
- 1.Windows7/Windows8/Windows10
- 2.Visual Studio 2012 upto 17
- 3. .NET Framework
- 
+1. Windows7/Windows8/Windows10
+1. Visual Studio 2012 upto 17
+1. .NET Framework
+
 ### Installing
 
 ```
