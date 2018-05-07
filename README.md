@@ -38,7 +38,7 @@ For demo data use Id : A01 and Password : abcde
 ```
 
 
-![](<a href="https://imgflip.com/gif/29t6ny"><img src="https://i.imgflip.com/29t6ny.gif" title="made at imgflip.com"/></a>)
+![](<a href="https://imgflip.com/gif/29t6ny"><img src="https://i.imgflip.com/29t6ny.gif" width="100" height="100"/></a>)
 
 ## Running the tests
 
