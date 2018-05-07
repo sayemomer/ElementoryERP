@@ -38,7 +38,7 @@ For demo data use Id : A01 and Password : abcde
 ```
 
 
-End with an example of getting some data out of the system or using it for a little demo
+![](<a href="https://imgflip.com/gif/29t6ny"><img src="https://i.imgflip.com/29t6ny.gif" title="made at imgflip.com"/></a>)
 
 ## Running the tests
 
