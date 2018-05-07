@@ -1,6 +1,9 @@
 # ElementoryERP
 Integrate business process management of an organization by using a system of integrated applications to manage the business and automate many back office functions related to technology, services and human resources.
 
+<a href="https://imgflip.com/gif/29t893"><img src="https://i.imgflip.com/29t893.gif" title="made at imgflip.com"/></a>
+
+<a href="https://imgflip.com/gif/29t8cy"><img src="https://i.imgflip.com/29t8cy.gif" title="made at imgflip.com"/></a>
 
 ## Getting Started
 
@@ -9,6 +12,7 @@ Integrate business process management of an organization by using a system of in
 1. Windows7/Windows8/Windows10
 1. Visual Studio 2012 upto 17
 1. .NET Framework
+1. Bunifu Framework
 
 ### Installing
 
@@ -38,57 +42,43 @@ For demo data use Id : A01 and Password : abcde
 ```
 
 
-(<a href="https://imgflip.com/gif/29t6ny"><img src="https://i.imgflip.com/29t6ny.gif" /></a>)
+<a href="https://imgflip.com/gif/29t6ny"><img src="https://i.imgflip.com/29t6ny.gif" /></a>
 
 <a href="https://imgflip.com/gif/29t73x"><img src="https://i.imgflip.com/29t73x.gif" title="made at imgflip.com"/></a>
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ### And coding style tests
 
-Explain what these tests test and why
+Camel Case Class name
 
 ```
-Give an example
+DatabaseConnection.cs
 ```
+Pascal Case Variable name
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+```
+private string homeTabCounter
+```
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [C#](https://docs.microsoft.com/en-us/dotnet/csharp/) - The language 
+* [Bunifu](https://bunifuframework.com/) - FrontEnd Framework
+* [Ms sql](https://www.microsoft.com/en-us/sql-server/sql-server-2016) - Used Database
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+### Create a branch
 
-## Versioning
+1. `git checkout master` from any folder in your local `reactjs.org` repository
+1. `git pull origin master` to ensure you have the latest main code
+1. `git checkout -b the-name-of-my-branch` (replacing `the-name-of-my-branch` with a suitable name) to create a branch
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Omer Sayem** 
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
