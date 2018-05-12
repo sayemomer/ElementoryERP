@@ -1,0 +1,186 @@
+Inventory :
+ 
+ inventory-->
+SELECT * FROM invenory;
+INSERT INTO inventory(ProductName,ProductId,Volume,Price,Store,Category,Tax) VALUES ("yamaha 180","y180",10,120000,"basundhora","bike",5);
+UPDATE inventory SET Price=110000 WHERE id="y180";
+DELETE FROM inventory Whare id="y180";
+
+---------------------//-----------------------------------
+
+Humen Resource :
+
+employee-->
+SELECT * FROM employee WHERE DepartmentName="marketing";
+SELECT * FROM employee WHERE DepartmentName="sales";
+SELECT * FROM employee WHERE DepartmentName="accounting";
+SELECT * FROM employee WHERE DepartmentName="finance";
+SELECT * FROM employee WHERE DepartmentName="hr";
+INSERT INTO employee(EmployeeID,Name,Gender,DepartmentName,Phone,Email,ReportsTo,Status) VALUES ("M102","Omer Sayem","M","Marketing","01865226555","Ramos","Regular");
+DELETE FROM employee Whare EmployeeID="M102";
+UPDATE employee SET DepartmentName="sales" WHERE id="M102";
+ 
+---------------------//-----------------------------------
+
+Marketing :
+
+  campaign-->
+INSERT INTO campaign(CampaignID,CampaignName,Objective,Placement,EmployeeID,LaunchDate,EndDate) VALUES ("y180_FBIB","Fastest bike bangladesh RoadShow","300 feet","M102",10-12-2018 to 12-12-2018);
+
+  approved_campaign-->
+SELECT * FROM approved_campaign;
+UPDATE approved_campaign SET RunningCost=1000 WHERE CampaignID="y180_FBIB";
+UPDATE approved_campaign SET Report="need mode fund" WHERE CampaignID="y180_FBIB";
+
+---------------------//-----------------------------------
+
+Finace:
+
+ =>DashBoard Tab
+SELECT COUNT(Name) AS TotalEmployee from employee where DepartmentName="sales" ;
+SELECT COUNT(Name) AS TotalEmployee from employee where DepartmentName="marketing" ;
+SELECT COUNT(Name) AS TotalEmployee from employee where DepartmentName="Human Resource" ;
+SELECT COUNT(Name) AS TotalEmployee from employee where DepartmentName="finance" ;
+SELECT COUNT(Name) AS TotalEmployee from employee where DepartmentName="accouting" ;
+SELECT COUNT(Name) AS TotalEmployee from employee where DepartmentName="management" ;
+
+  =>Marketing Tab
+approved_campaign-->
+SELECT * FROM approved_campaign where ApprovedCost=0;
+UPDATE approved_campaign SET ApprovedCost=30000 WHERE CampaignID="y180_FBIB";
+
+ =>Set Salary Tab
+employee-->
+SELECT * FROM employee where salary=0;
+UPDATE employee SET salary=45000 WHERE EmployeeID ="M102";
+
+---------------------//-----------------------------------
+
+Accounting:
+
+total salary sum-->
+SELECT SUM(Salary) AS totalSalary FROM employee where ;
+
+total marketing cost calculation-->
+
+total inventory product price-->
+
+revenue calculation-->
+  
+---------------------//-----------------------------------
+
+Sales:
+
+ =>Order Tab
+order-->
+SELECT * FROM order;
+INSERT INTO order(OrderID,ProductId,ProductName,Quantity,Address,EmployeeID) VALUES ("y120","y180",y180,10,"basundhora","S101");
+
+
+=>Shipment Tab
+shipment-->
+SELECT * FROM shipment;
+INSERT INTO shipment(ShipementID,ShipmentProgress,Status) VALUES ("1",20%,"on the way");
+UPDATE shipment SET Status="delivared" WHERE OrderID="y120";
+
+
+=>Deals Tab
+deal-->
+SELECT * FROM deal;
+INSERT INTO deal(CompanyID,ContactID,Name,Address,Phone,Email,ParentCompany,IndustryType,AnnualRevenue,CurrencyID,PaymentTerms) VALUES ("101","y100","Pathao","Banani DOHS","01865226555","uber","ride sharing","1M","taka","one year EMI" );
+
+=>Contact Tab
+deal_contact-->
+SELECT * FROM deal_contact;
+INSERT INTO deal_contact(ContactID,Name,Address,Phone,Email,JobTitle) VALUES ("101","Mojammel Sumon","Mohakhali","01812350905","mojammel@gmail.com","Sr. executive");
+
+---------------------//-----------------------------------
+
+Management:
+=>markeing tab
+  =>Rquested Campaigns
+	campaign-->
+ 	SELECT * FROM campaign;
+ 	DELETE FROM campaign Whare CampaignID="y180_FBIB";
+	INSERT INTO approved_campaign(CampaignID,CampaignName,Objective,Placement,EmployeeID,LaunchDate,EndDate) VALUES ("y180_FBIB","Fastest bike bangladesh RoadShow","300 feet","M102",10-12-2018 to 12-12-2018);
+
+   =>Approved Campaigns
+	approved_campaign-->
+ 	SELECT * FROM approved_campaign;
+
+   =>Contacts
+	SELECT * FROM employee WHERE DepartmentName="marketing";
+
+
+=>Sales Tab
+  =>order
+	order-->
+	SELECT * FROM order;
+ 	
+  =>Shipment Tab
+	shipment-->
+	SELECT * FROM shipment;
+
+  =>Deals Tab
+	Deals-->
+	SELECT * FROM deal;
+
+   =>Contacts
+	SELECT * FROM employee WHERE DepartmentName="sales";
+
+=>Humen Resource tab
+
+employee-->
+SELECT * FROM employee WHERE DepartmentName="marketing";
+SELECT * FROM employee WHERE DepartmentName="sales";
+SELECT * FROM employee WHERE DepartmentName="accounting";
+SELECT * FROM employee WHERE DepartmentName="finance";
+SELECT * FROM employee WHERE DepartmentName="hr";
+INSERT INTO employee(EmployeeID,Name,Gender,DepartmentName,Phone,Email,ReportsTo,Status) VALUES ("M102","Omer Sayem","M","Marketing","01865226555","Ramos","Regular");
+DELETE FROM employee Whare EmployeeID="M102";
+UPDATE employee SET DepartmentName="sales" WHERE id="M102";
+
+=>Finace tab 
+
+ =>DashBoard Tab
+SELECT COUNT(Name) AS TotalEmployee from employee where DepartmentName="sales" ;
+SELECT COUNT(Name) AS TotalEmployee from employee where DepartmentName="marketing" ;
+SELECT COUNT(Name) AS TotalEmployee from employee where DepartmentName="Human Resource" ;
+SELECT COUNT(Name) AS TotalEmployee from employee where DepartmentName="finance" ;
+SELECT COUNT(Name) AS TotalEmployee from employee where DepartmentName="accouting" ;
+SELECT COUNT(Name) AS TotalEmployee from employee where DepartmentName="management" ;
+
+  =>Marketing Tab
+approved_campaign-->
+SELECT * FROM approved_campaign where ApprovedCost=0;
+UPDATE approved_campaign SET ApprovedCost=30000 WHERE CampaignID="y180_FBIB";
+
+ =>Set Salary Tab
+employee-->
+SELECT * FROM employee where salary=0;
+UPDATE employee SET salary=45000 WHERE EmployeeID ="M102";
+ 
+=>Inventory Tab
+ 
+ inventory-->
+SELECT * FROM invenory;
+INSERT INTO inventory(ProductName,ProductId,Volume,Price,Store,Category,Tax) VALUES ("yamaha 180","y180",10,120000,"basundhora","bike",5);
+UPDATE inventory SET Price=110000 WHERE id="y180";
+DELETE FROM inventory Whare id="y180";
+
+
+INSERT INTO shipment(ShipmentID,ShipmentProgress,Status) VALUES ('1',20,'on the way');
+
+
+
+Marketing 
+Sales
+Inventory
+Deals
+Accounting
+Finance
+HR
+IT
+
+
+ 
