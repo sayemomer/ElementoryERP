@@ -23,8 +23,12 @@ namespace ERPApplication
             this.dataGrid.Visible = false;
             this.dataGrid1.Visible = false;
 
+            this.chart1.Visible = true;
+
             AccountingRepository ar = new AccountingRepository();
             this.totalCashLabel.Text = "totalCash : " + Convert.ToString(ar.countTotalCash());
+
+            showChart();
         }
 
         private void homeTab_Click(object sender, EventArgs e)
@@ -50,6 +54,8 @@ namespace ERPApplication
             this.groupBox1.Visible = false;
             this.groupBox2.Visible = false;
 
+            this.chart1.Visible = false;
+
             EmployeeRepository result = new EmployeeRepository();
             List<EmployeeR> allResult = result.GetEmployee("Accounting");
             this.dataGrid.DataSource = allResult;
@@ -63,6 +69,8 @@ namespace ERPApplication
 
             this.groupBox1.Visible = true;
             this.groupBox2.Visible = false;
+
+            this.chart1.Visible = false;
 
 
             AccountingRepository result = new AccountingRepository();
@@ -235,6 +243,19 @@ namespace ERPApplication
             this.dateTimePicker1.Text = "";
             this.dateTimePicker2.Text = "";
             this.textBox1.Text = "";
+        }
+
+        public void showChart()
+        {
+
+            AccountingRepository ar = new AccountingRepository();
+            List<AccountingR> allTransiction = ar.GetAllTransiction();
+
+            foreach (AccountingR a in allTransiction)
+            {
+                this.chart1.Series["Money"].Points.AddXY(a.Date,a.Money);
+            }
+
         }
         
     }
