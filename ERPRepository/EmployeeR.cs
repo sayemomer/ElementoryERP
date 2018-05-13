@@ -19,7 +19,7 @@ namespace ERPRepository
         private string employeeEmail;
         private string eReportsTo;
         private string eStatus;
-        private int salary;
+        private double salary;
         private string ePassword;
 
         public string EmployeeId
@@ -62,7 +62,7 @@ namespace ERPRepository
             get { return eStatus; }
             set { eStatus = value; }
         }
-        public int Salary
+        public double Salary
         {
             get { return salary; }
             set { salary = value; }

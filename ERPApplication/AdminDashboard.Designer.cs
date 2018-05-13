@@ -29,9 +29,12 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            BunifuAnimatorNS.Animation animation4 = new BunifuAnimatorNS.Animation();
-            BunifuAnimatorNS.Animation animation3 = new BunifuAnimatorNS.Animation();
+            BunifuAnimatorNS.Animation animation2 = new BunifuAnimatorNS.Animation();
+            BunifuAnimatorNS.Animation animation1 = new BunifuAnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminDashboard));
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.sideMenu = new System.Windows.Forms.Panel();
             this.ITtab = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -130,19 +133,6 @@
             this.groupBox11 = new System.Windows.Forms.GroupBox();
             this.label140 = new System.Windows.Forms.Label();
             this.label139 = new System.Windows.Forms.Label();
-            this.groupBox12 = new System.Windows.Forms.GroupBox();
-            this.label118 = new System.Windows.Forms.Label();
-            this.label119 = new System.Windows.Forms.Label();
-            this.label120 = new System.Windows.Forms.Label();
-            this.label121 = new System.Windows.Forms.Label();
-            this.label122 = new System.Windows.Forms.Label();
-            this.label123 = new System.Windows.Forms.Label();
-            this.label124 = new System.Windows.Forms.Label();
-            this.label125 = new System.Windows.Forms.Label();
-            this.label126 = new System.Windows.Forms.Label();
-            this.label127 = new System.Windows.Forms.Label();
-            this.label128 = new System.Windows.Forms.Label();
-            this.label129 = new System.Windows.Forms.Label();
             this.groupBox13 = new System.Windows.Forms.GroupBox();
             this.label130 = new System.Windows.Forms.Label();
             this.totalCashLabel = new System.Windows.Forms.Label();
@@ -240,6 +230,7 @@
             this.label26 = new System.Windows.Forms.Label();
             this.logoTransition = new BunifuAnimatorNS.BunifuTransition(this.components);
             this.panelTransition = new BunifuAnimatorNS.BunifuTransition(this.components);
+            this.hrGraph = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.sideMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.menuButton)).BeginInit();
@@ -251,7 +242,6 @@
             this.groupBox9.SuspendLayout();
             this.groupBox10.SuspendLayout();
             this.groupBox11.SuspendLayout();
-            this.groupBox12.SuspendLayout();
             this.groupBox13.SuspendLayout();
             this.groupBox14.SuspendLayout();
             this.groupBox7.SuspendLayout();
@@ -259,6 +249,7 @@
             this.groupBox5.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.hrGraph)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuElipse1
@@ -768,11 +759,11 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.hrGraph);
             this.panel1.Controls.Add(this.groupBox8);
             this.panel1.Controls.Add(this.groupBox9);
             this.panel1.Controls.Add(this.groupBox10);
             this.panel1.Controls.Add(this.groupBox11);
-            this.panel1.Controls.Add(this.groupBox12);
             this.panel1.Controls.Add(this.groupBox13);
             this.panel1.Controls.Add(this.groupBox14);
             this.panelTransition.SetDecoration(this.panel1, BunifuAnimatorNS.DecorationType.None);
@@ -1873,194 +1864,15 @@
             this.label139.TabIndex = 66;
             this.label139.Text = "Best Selling Product :";
             // 
-            // groupBox12
-            // 
-            this.groupBox12.Controls.Add(this.label118);
-            this.groupBox12.Controls.Add(this.label119);
-            this.groupBox12.Controls.Add(this.label120);
-            this.groupBox12.Controls.Add(this.label121);
-            this.groupBox12.Controls.Add(this.label122);
-            this.groupBox12.Controls.Add(this.label123);
-            this.groupBox12.Controls.Add(this.label124);
-            this.groupBox12.Controls.Add(this.label125);
-            this.groupBox12.Controls.Add(this.label126);
-            this.groupBox12.Controls.Add(this.label127);
-            this.groupBox12.Controls.Add(this.label128);
-            this.groupBox12.Controls.Add(this.label129);
-            this.panelTransition.SetDecoration(this.groupBox12, BunifuAnimatorNS.DecorationType.None);
-            this.logoTransition.SetDecoration(this.groupBox12, BunifuAnimatorNS.DecorationType.None);
-            this.groupBox12.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.groupBox12.Location = new System.Drawing.Point(316, 23);
-            this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Size = new System.Drawing.Size(220, 336);
-            this.groupBox12.TabIndex = 1;
-            this.groupBox12.TabStop = false;
-            // 
-            // label118
-            // 
-            this.label118.AutoSize = true;
-            this.logoTransition.SetDecoration(this.label118, BunifuAnimatorNS.DecorationType.None);
-            this.panelTransition.SetDecoration(this.label118, BunifuAnimatorNS.DecorationType.None);
-            this.label118.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label118.Location = new System.Drawing.Point(1, 297);
-            this.label118.Name = "label118";
-            this.label118.Size = new System.Drawing.Size(69, 21);
-            this.label118.TabIndex = 69;
-            this.label118.Text = "Intern : ";
-            this.label118.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label119
-            // 
-            this.label119.AutoSize = true;
-            this.logoTransition.SetDecoration(this.label119, BunifuAnimatorNS.DecorationType.None);
-            this.panelTransition.SetDecoration(this.label119, BunifuAnimatorNS.DecorationType.None);
-            this.label119.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label119.Location = new System.Drawing.Point(1, 276);
-            this.label119.Name = "label119";
-            this.label119.Size = new System.Drawing.Size(122, 21);
-            this.label119.TabIndex = 70;
-            this.label119.Text = "Probationary : ";
-            this.label119.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label120
-            // 
-            this.label120.AutoSize = true;
-            this.logoTransition.SetDecoration(this.label120, BunifuAnimatorNS.DecorationType.None);
-            this.panelTransition.SetDecoration(this.label120, BunifuAnimatorNS.DecorationType.None);
-            this.label120.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label120.Location = new System.Drawing.Point(1, 255);
-            this.label120.Name = "label120";
-            this.label120.Size = new System.Drawing.Size(86, 21);
-            this.label120.TabIndex = 68;
-            this.label120.Text = "Full Time : ";
-            this.label120.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label121
-            // 
-            this.label121.AutoSize = true;
-            this.logoTransition.SetDecoration(this.label121, BunifuAnimatorNS.DecorationType.None);
-            this.panelTransition.SetDecoration(this.label121, BunifuAnimatorNS.DecorationType.None);
-            this.label121.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label121.Location = new System.Drawing.Point(1, 230);
-            this.label121.Name = "label121";
-            this.label121.Size = new System.Drawing.Size(62, 24);
-            this.label121.TabIndex = 71;
-            this.label121.Text = "Satus";
-            this.label121.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label122
-            // 
-            this.label122.AutoSize = true;
-            this.logoTransition.SetDecoration(this.label122, BunifuAnimatorNS.DecorationType.None);
-            this.panelTransition.SetDecoration(this.label122, BunifuAnimatorNS.DecorationType.None);
-            this.label122.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label122.Location = new System.Drawing.Point(74, 23);
-            this.label122.Name = "label122";
-            this.label122.Size = new System.Drawing.Size(49, 33);
-            this.label122.TabIndex = 67;
-            this.label122.Text = "HR";
-            this.label122.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label123
-            // 
-            this.label123.AutoSize = true;
-            this.logoTransition.SetDecoration(this.label123, BunifuAnimatorNS.DecorationType.None);
-            this.panelTransition.SetDecoration(this.label123, BunifuAnimatorNS.DecorationType.None);
-            this.label123.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label123.Location = new System.Drawing.Point(1, 66);
-            this.label123.Name = "label123";
-            this.label123.Size = new System.Drawing.Size(185, 24);
-            this.label123.TabIndex = 66;
-            this.label123.Text = "Total Employee : ";
-            this.label123.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label124
-            // 
-            this.label124.AutoSize = true;
-            this.logoTransition.SetDecoration(this.label124, BunifuAnimatorNS.DecorationType.None);
-            this.panelTransition.SetDecoration(this.label124, BunifuAnimatorNS.DecorationType.None);
-            this.label124.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label124.Location = new System.Drawing.Point(1, 202);
-            this.label124.Name = "label124";
-            this.label124.Size = new System.Drawing.Size(38, 21);
-            this.label124.TabIndex = 62;
-            this.label124.Text = "Hr : ";
-            this.label124.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label125
-            // 
-            this.label125.AutoSize = true;
-            this.logoTransition.SetDecoration(this.label125, BunifuAnimatorNS.DecorationType.None);
-            this.panelTransition.SetDecoration(this.label125, BunifuAnimatorNS.DecorationType.None);
-            this.label125.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label125.Location = new System.Drawing.Point(1, 117);
-            this.label125.Name = "label125";
-            this.label125.Size = new System.Drawing.Size(60, 21);
-            this.label125.TabIndex = 60;
-            this.label125.Text = "Sales : ";
-            this.label125.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label126
-            // 
-            this.label126.AutoSize = true;
-            this.logoTransition.SetDecoration(this.label126, BunifuAnimatorNS.DecorationType.None);
-            this.panelTransition.SetDecoration(this.label126, BunifuAnimatorNS.DecorationType.None);
-            this.label126.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label126.Location = new System.Drawing.Point(1, 181);
-            this.label126.Name = "label126";
-            this.label126.Size = new System.Drawing.Size(116, 21);
-            this.label126.TabIndex = 65;
-            this.label126.Text = "Accounting : ";
-            this.label126.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label127
-            // 
-            this.label127.AutoSize = true;
-            this.logoTransition.SetDecoration(this.label127, BunifuAnimatorNS.DecorationType.None);
-            this.panelTransition.SetDecoration(this.label127, BunifuAnimatorNS.DecorationType.None);
-            this.label127.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label127.Location = new System.Drawing.Point(1, 139);
-            this.label127.Name = "label127";
-            this.label127.Size = new System.Drawing.Size(102, 21);
-            this.label127.TabIndex = 61;
-            this.label127.Text = "Marketing : ";
-            this.label127.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label128
-            // 
-            this.label128.AutoSize = true;
-            this.logoTransition.SetDecoration(this.label128, BunifuAnimatorNS.DecorationType.None);
-            this.panelTransition.SetDecoration(this.label128, BunifuAnimatorNS.DecorationType.None);
-            this.label128.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label128.Location = new System.Drawing.Point(1, 160);
-            this.label128.Name = "label128";
-            this.label128.Size = new System.Drawing.Size(84, 21);
-            this.label128.TabIndex = 64;
-            this.label128.Text = "Finance : ";
-            this.label128.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label129
-            // 
-            this.label129.AutoSize = true;
-            this.logoTransition.SetDecoration(this.label129, BunifuAnimatorNS.DecorationType.None);
-            this.panelTransition.SetDecoration(this.label129, BunifuAnimatorNS.DecorationType.None);
-            this.label129.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label129.Location = new System.Drawing.Point(1, 96);
-            this.label129.Name = "label129";
-            this.label129.Size = new System.Drawing.Size(74, 21);
-            this.label129.TabIndex = 63;
-            this.label129.Text = "Admin : ";
-            this.label129.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // groupBox13
             // 
             this.groupBox13.Controls.Add(this.label130);
             this.groupBox13.Controls.Add(this.totalCashLabel);
             this.panelTransition.SetDecoration(this.groupBox13, BunifuAnimatorNS.DecorationType.None);
             this.logoTransition.SetDecoration(this.groupBox13, BunifuAnimatorNS.DecorationType.None);
-            this.groupBox13.Location = new System.Drawing.Point(90, 193);
+            this.groupBox13.Location = new System.Drawing.Point(6, 189);
             this.groupBox13.Name = "groupBox13";
-            this.groupBox13.Size = new System.Drawing.Size(220, 166);
+            this.groupBox13.Size = new System.Drawing.Size(199, 164);
             this.groupBox13.TabIndex = 1;
             this.groupBox13.TabStop = false;
             // 
@@ -2097,9 +1909,9 @@
             this.panelTransition.SetDecoration(this.groupBox14, BunifuAnimatorNS.DecorationType.None);
             this.logoTransition.SetDecoration(this.groupBox14, BunifuAnimatorNS.DecorationType.None);
             this.groupBox14.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.groupBox14.Location = new System.Drawing.Point(90, 23);
+            this.groupBox14.Location = new System.Drawing.Point(6, 29);
             this.groupBox14.Name = "groupBox14";
-            this.groupBox14.Size = new System.Drawing.Size(220, 166);
+            this.groupBox14.Size = new System.Drawing.Size(199, 144);
             this.groupBox14.TabIndex = 0;
             this.groupBox14.TabStop = false;
             // 
@@ -3368,43 +3180,68 @@
             // 
             this.logoTransition.AnimationType = BunifuAnimatorNS.AnimationType.VertSlide;
             this.logoTransition.Cursor = null;
-            animation4.AnimateOnlyDifferences = true;
-            animation4.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.BlindCoeff")));
-            animation4.LeafCoeff = 0F;
-            animation4.MaxTime = 1F;
-            animation4.MinTime = 0F;
-            animation4.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicCoeff")));
-            animation4.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicShift")));
-            animation4.MosaicSize = 0;
-            animation4.Padding = new System.Windows.Forms.Padding(0);
-            animation4.RotateCoeff = 0F;
-            animation4.RotateLimit = 0F;
-            animation4.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.ScaleCoeff")));
-            animation4.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.SlideCoeff")));
-            animation4.TimeCoeff = 0F;
-            animation4.TransparencyCoeff = 0F;
-            this.logoTransition.DefaultAnimation = animation4;
+            animation2.AnimateOnlyDifferences = true;
+            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
+            animation2.LeafCoeff = 0F;
+            animation2.MaxTime = 1F;
+            animation2.MinTime = 0F;
+            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
+            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
+            animation2.MosaicSize = 0;
+            animation2.Padding = new System.Windows.Forms.Padding(0);
+            animation2.RotateCoeff = 0F;
+            animation2.RotateLimit = 0F;
+            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
+            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
+            animation2.TimeCoeff = 0F;
+            animation2.TransparencyCoeff = 0F;
+            this.logoTransition.DefaultAnimation = animation2;
             // 
             // panelTransition
             // 
             this.panelTransition.AnimationType = BunifuAnimatorNS.AnimationType.HorizSlide;
             this.panelTransition.Cursor = null;
-            animation3.AnimateOnlyDifferences = true;
-            animation3.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.BlindCoeff")));
-            animation3.LeafCoeff = 0F;
-            animation3.MaxTime = 1F;
-            animation3.MinTime = 0F;
-            animation3.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicCoeff")));
-            animation3.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicShift")));
-            animation3.MosaicSize = 0;
-            animation3.Padding = new System.Windows.Forms.Padding(0);
-            animation3.RotateCoeff = 0F;
-            animation3.RotateLimit = 0F;
-            animation3.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.ScaleCoeff")));
-            animation3.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.SlideCoeff")));
-            animation3.TimeCoeff = 0F;
-            animation3.TransparencyCoeff = 0F;
-            this.panelTransition.DefaultAnimation = animation3;
+            animation1.AnimateOnlyDifferences = true;
+            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
+            animation1.LeafCoeff = 0F;
+            animation1.MaxTime = 1F;
+            animation1.MinTime = 0F;
+            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
+            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
+            animation1.MosaicSize = 0;
+            animation1.Padding = new System.Windows.Forms.Padding(0);
+            animation1.RotateCoeff = 0F;
+            animation1.RotateLimit = 0F;
+            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
+            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
+            animation1.TimeCoeff = 0F;
+            animation1.TransparencyCoeff = 0F;
+            this.panelTransition.DefaultAnimation = animation1;
+            // 
+            // hrGraph
+            // 
+            this.hrGraph.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.hrGraph.BackHatchStyle = System.Windows.Forms.DataVisualization.Charting.ChartHatchStyle.DashedVertical;
+            this.hrGraph.BackImageTransparentColor = System.Drawing.Color.White;
+            this.hrGraph.BackSecondaryColor = System.Drawing.Color.White;
+            this.hrGraph.BorderlineColor = System.Drawing.Color.WhiteSmoke;
+            chartArea1.Name = "ChartArea1";
+            this.hrGraph.ChartAreas.Add(chartArea1);
+            this.panelTransition.SetDecoration(this.hrGraph, BunifuAnimatorNS.DecorationType.None);
+            this.logoTransition.SetDecoration(this.hrGraph, BunifuAnimatorNS.DecorationType.None);
+            legend1.Name = "Legend1";
+            this.hrGraph.Legends.Add(legend1);
+            this.hrGraph.Location = new System.Drawing.Point(216, 7);
+            this.hrGraph.Name = "hrGraph";
+            this.hrGraph.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series1.Legend = "Legend1";
+            series1.Name = "emp";
+            this.hrGraph.Series.Add(series1);
+            this.hrGraph.Size = new System.Drawing.Size(314, 300);
+            this.hrGraph.TabIndex = 86;
+            this.hrGraph.Text = "chart1";
             // 
             // AdminDashboard
             // 
@@ -3436,8 +3273,6 @@
             this.groupBox10.PerformLayout();
             this.groupBox11.ResumeLayout(false);
             this.groupBox11.PerformLayout();
-            this.groupBox12.ResumeLayout(false);
-            this.groupBox12.PerformLayout();
             this.groupBox13.ResumeLayout(false);
             this.groupBox13.PerformLayout();
             this.groupBox14.ResumeLayout(false);
@@ -3452,6 +3287,7 @@
             this.groupBox3.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.hrGraph)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -3624,19 +3460,6 @@
         private System.Windows.Forms.Label label116;
         private System.Windows.Forms.Label label117;
         private System.Windows.Forms.GroupBox groupBox11;
-        private System.Windows.Forms.GroupBox groupBox12;
-        private System.Windows.Forms.Label label118;
-        private System.Windows.Forms.Label label119;
-        private System.Windows.Forms.Label label120;
-        private System.Windows.Forms.Label label121;
-        private System.Windows.Forms.Label label122;
-        private System.Windows.Forms.Label label123;
-        private System.Windows.Forms.Label label124;
-        private System.Windows.Forms.Label label125;
-        private System.Windows.Forms.Label label126;
-        private System.Windows.Forms.Label label127;
-        private System.Windows.Forms.Label label128;
-        private System.Windows.Forms.Label label129;
         private System.Windows.Forms.GroupBox groupBox13;
         private System.Windows.Forms.GroupBox groupBox14;
         private System.Windows.Forms.Label appCampaign;
@@ -3666,5 +3489,6 @@
         private System.Windows.Forms.Label totalCashLabel;
         private System.Windows.Forms.Label label139;
         private System.Windows.Forms.Label label140;
+        private System.Windows.Forms.DataVisualization.Charting.Chart hrGraph;
     }
 }

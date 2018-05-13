@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Accounting));
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.dashbar = new System.Windows.Forms.Panel();
@@ -97,16 +97,17 @@
             // 
             // chart1
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chart1.Legends.Add(legend1);
+            this.chart1.BackColor = System.Drawing.SystemColors.Control;
+            chartArea2.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chart1.Legends.Add(legend2);
             this.chart1.Location = new System.Drawing.Point(628, 88);
             this.chart1.Name = "chart1";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Money";
-            this.chart1.Series.Add(series1);
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Money";
+            this.chart1.Series.Add(series2);
             this.chart1.Size = new System.Drawing.Size(354, 300);
             this.chart1.TabIndex = 35;
             this.chart1.Text = "chart1";
@@ -250,14 +251,15 @@
             // 
             this.dataGrid1.AllowUserToResizeColumns = false;
             this.dataGrid1.AllowUserToResizeRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.AliceBlue;
-            this.dataGrid1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.AliceBlue;
+            this.dataGrid1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGrid1.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dataGrid1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGrid1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleVertical;
             this.dataGrid1.ColumnHeadersHeight = 40;
             this.dataGrid1.EnableHeadersVisualStyles = false;
-            this.dataGrid1.Location = new System.Drawing.Point(257, 69);
+            this.dataGrid1.GridColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.dataGrid1.Location = new System.Drawing.Point(257, 61);
             this.dataGrid1.Name = "dataGrid1";
             this.dataGrid1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.dataGrid1.Size = new System.Drawing.Size(808, 332);
@@ -268,8 +270,8 @@
             // 
             this.dataGrid.AllowUserToResizeColumns = false;
             this.dataGrid.AllowUserToResizeRows = false;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.AliceBlue;
-            this.dataGrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.AliceBlue;
+            this.dataGrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGrid.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dataGrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleVertical;

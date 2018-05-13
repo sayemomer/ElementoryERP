@@ -27,18 +27,39 @@ namespace ERPApplication
 
 
             //Hr Info
-            EmployeeRepository m = new EmployeeRepository();
-            this.label123.Text += Convert.ToString(m.countAllEmployee());
-            this.label129.Text += Convert.ToString(m.countEmployee("Admin"));
-            this.label125.Text += Convert.ToString(m.countEmployee("Sales"));
-            this.label127.Text += Convert.ToString(m.countEmployee("Marketing"));
-            this.label124.Text += Convert.ToString(m.countEmployee("Human Resource"));
-            this.label126.Text += Convert.ToString(m.countEmployee("Accounting"));
-            this.label128.Text += Convert.ToString(m.countEmployee("Finance"));
 
-            this.label120.Text += Convert.ToString(m.countAllStatus("Full Time"));
-            this.label119.Text += Convert.ToString(m.countAllStatus("Probationary"));
-            this.label118.Text += Convert.ToString(m.countAllStatus("Intern"));
+
+            EmployeeRepository m = new EmployeeRepository();
+
+
+            /* 
+             * EmployeeRepository m = new EmployeeRepository();
+              this.label123.Text += Convert.ToString(m.countAllEmployee());
+              this.label129.Text += Convert.ToString(m.countEmployee("Admin"));
+              this.label125.Text += Convert.ToString(m.countEmployee("Sales"));
+              this.label127.Text += Convert.ToString(m.countEmployee("Marketing"));
+              this.label124.Text += Convert.ToString(m.countEmployee("Human Resource"));
+              this.label126.Text += Convert.ToString(m.countEmployee("Accounting"));
+              this.label128.Text += Convert.ToString(m.countEmployee("Finance"));
+
+              this.label120.Text += Convert.ToString(m.countAllStatus("Full Time"));
+              this.label119.Text += Convert.ToString(m.countAllStatus("Probationary"));
+  this.label118.Text += Convert.ToString(m.countAllStatus("Intern"));
+             * 
+             * 
+             * this.label120.Text += Convert.ToString(m.countAllStatus("Full Time"));
+              this.label119.Text += Convert.ToString(m.countAllStatus("Probationary"));
+              this.label118.Text += Convert.ToString(m.countAllStatus("Intern"));*/
+
+
+            this.hrGraph.Series["emp"].Points.AddXY("Admin:"+Convert.ToString(m.countEmployee("Admin")), m.countEmployee("Admin") );
+            this.hrGraph.Series["emp"].Points.AddXY("Sales:"+Convert.ToString(m.countEmployee("Sales")), m.countEmployee("Sales"));
+            this.hrGraph.Series["emp"].Points.AddXY("HR:"+Convert.ToString(m.countEmployee("Human Resource")), m.countEmployee("Human Resource"));
+            this.hrGraph.Series["emp"].Points.AddXY("IT:" + Convert.ToString(m.countEmployee("IT")), m.countEmployee("IT"));
+            this.hrGraph.Series["emp"].Points.AddXY("Accounts:"+Convert.ToString(m.countEmployee("Accounting")), m.countEmployee("Accounting"));
+            this.hrGraph.Series["emp"].Points.AddXY("Finance:"+Convert.ToString(m.countEmployee("Finance")), m.countEmployee("Finance")); 
+            this.hrGraph.Series["emp"].Points.AddXY("Marketing:"+Convert.ToString(m.countEmployee("Marketing")), m.countEmployee("Marketing"));
+            
 
             //sales Info
 

@@ -116,7 +116,7 @@ namespace ERPRepository
                 i.EmployeeEmail = sdr["EmployeeEmail"].ToString();
                 i.EReportsTo = sdr["EReportsTo"].ToString();
                 i.EStatus = sdr["EStatus"].ToString();
-                i.Salary =Convert.ToInt32( sdr["Salary"] );
+                i.Salary = Convert.ToDouble( sdr["Salary"] );
                 i.EPassword =sdr["EPassword"].ToString();
                 iList.Add(i);
             }
