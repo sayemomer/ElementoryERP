@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ERPRepository;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace ERPApplication
 {
@@ -22,8 +23,6 @@ namespace ERPApplication
 
             this.dataGrid.Visible = false;
             this.dataGrid1.Visible = false;
-
-            this.chart1.Visible = true;
 
             AccountingRepository ar = new AccountingRepository();
             this.totalCashLabel.Text = "totalCash : " + Convert.ToString(ar.countTotalCash());
@@ -228,8 +227,11 @@ namespace ERPApplication
 
         private void DashBoard_Click(object sender, EventArgs e)
         {
+            showChart();
+
             this.groupBox1.Visible = false;
             this.groupBox2.Visible = true;
+            this.chart1.Visible = true;
 
             this.dataGrid.Visible = false;
             this.dataGrid1.Visible = false;
@@ -251,10 +253,18 @@ namespace ERPApplication
             AccountingRepository ar = new AccountingRepository();
             List<AccountingR> allTransiction = ar.GetAllTransiction();
 
-            foreach (AccountingR a in allTransiction)
+            foreach (var series in chart1.Series)
             {
-                this.chart1.Series["Money"].Points.AddXY(a.Date,a.Money);
+                series.Points.Clear();
             }
+
+            foreach (AccountingR a in allTransiction) 
+            {
+                //this.chart1.Series.Add("taka");
+
+                this.chart1.Series["Money"].Points.AddXY(a.Date, a.Money);
+            }
+
 
         }
         

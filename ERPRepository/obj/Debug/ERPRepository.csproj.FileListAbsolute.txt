@@ -50,3 +50,11 @@ C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPRepository\bin\Debug\ERPRepository.p
 C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPRepository\obj\Debug\ERPRepository.csprojResolveAssemblyReference.cache
 C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPRepository\obj\Debug\ERPRepository.dll
 C:\Users\omer\Desktop\ERPLTS_backup\ERP4\ERPRepository\obj\Debug\ERPRepository.pdb
+H:\ElementoryERP\ERPRepository\bin\Debug\ERPDB.mdf
+H:\ElementoryERP\ERPRepository\bin\Debug\ERPDB_log.ldf
+H:\ElementoryERP\ERPRepository\bin\Debug\ERPRepository.dll.config
+H:\ElementoryERP\ERPRepository\bin\Debug\ERPRepository.dll
+H:\ElementoryERP\ERPRepository\bin\Debug\ERPRepository.pdb
+H:\ElementoryERP\ERPRepository\obj\Debug\ERPRepository.csprojResolveAssemblyReference.cache
+H:\ElementoryERP\ERPRepository\obj\Debug\ERPRepository.dll
+H:\ElementoryERP\ERPRepository\obj\Debug\ERPRepository.pdb
