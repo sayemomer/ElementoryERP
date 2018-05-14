@@ -20,9 +20,9 @@ namespace ERPApplication
             //marketing Info
             MarketingRepository mr = new MarketingRepository();
 
-            this.totalCampaigns.Text = "Total Campaigns : " + Convert.ToString(mr.countAllCampaigns());
+          //  this.totalCampaigns.Text = "Total Campaigns : " + Convert.ToString(mr.countAllCampaigns());
 
-            this.appCampaign.Text = "Approved Campaigns : " + Convert.ToString(mr.countAllApprovedCampaigns("Approved"));
+           // this.appCampaign.Text = "Approved Campaigns : " + Convert.ToString(mr.countAllApprovedCampaigns("Approved"));
 
 
 
@@ -51,15 +51,19 @@ namespace ERPApplication
               this.label119.Text += Convert.ToString(m.countAllStatus("Probationary"));
               this.label118.Text += Convert.ToString(m.countAllStatus("Intern"));*/
 
+            this.hrGraph2.Visible = false;
 
-            this.hrGraph.Series["emp"].Points.AddXY("Admin:"+Convert.ToString(m.countEmployee("Admin")), m.countEmployee("Admin") );
-            this.hrGraph.Series["emp"].Points.AddXY("Sales:"+Convert.ToString(m.countEmployee("Sales")), m.countEmployee("Sales"));
-            this.hrGraph.Series["emp"].Points.AddXY("HR:"+Convert.ToString(m.countEmployee("Human Resource")), m.countEmployee("Human Resource"));
-            this.hrGraph.Series["emp"].Points.AddXY("IT:" + Convert.ToString(m.countEmployee("IT")), m.countEmployee("IT"));
-            this.hrGraph.Series["emp"].Points.AddXY("Accounts:"+Convert.ToString(m.countEmployee("Accounting")), m.countEmployee("Accounting"));
-            this.hrGraph.Series["emp"].Points.AddXY("Finance:"+Convert.ToString(m.countEmployee("Finance")), m.countEmployee("Finance")); 
-            this.hrGraph.Series["emp"].Points.AddXY("Marketing:"+Convert.ToString(m.countEmployee("Marketing")), m.countEmployee("Marketing"));
-            
+            this.hrGraph.Series["emp"].Points.AddXY("Admin", m.countEmployee("Admin") );
+            this.hrGraph.Series["emp"].Points.AddXY("Sales", m.countEmployee("Sales"));
+            this.hrGraph.Series["emp"].Points.AddXY("HR", m.countEmployee("Human Resource"));
+            this.hrGraph.Series["emp"].Points.AddXY("IT", m.countEmployee("IT"));
+            this.hrGraph.Series["emp"].Points.AddXY("Accounts", m.countEmployee("Accounting"));
+            this.hrGraph.Series["emp"].Points.AddXY("Finance", m.countEmployee("Finance")); 
+            this.hrGraph.Series["emp"].Points.AddXY("Marketing", m.countEmployee("Marketing"));
+
+            this.hrGraph2.Series["Status"].Points.AddXY("Full Time", m.countAllStatus("Full Time"));
+            this.hrGraph2.Series["Status"].Points.AddXY("Probationary", m.countAllStatus("Probationary"));
+            this.hrGraph2.Series["Status"].Points.AddXY("Intern", m.countAllStatus("Intern"));
 
             //sales Info
 
@@ -70,42 +74,73 @@ namespace ERPApplication
 
             OrderRepository or = new OrderRepository();
 
-            this.label117.Text = "Total Order : " + Convert.ToString(or.countAllOrder());
+          /*  this.label117.Text = "Total Order : " + Convert.ToString(or.countAllOrder());
             this.label114.Text = "Bike : " + Convert.ToString(or.countOrder("Bike"));
             this.label108.Text = "Car : " + Convert.ToString(or.countOrder("Car"));
             this.label111.Text = "Cng : " + Convert.ToString(or.countOrder("Cng"));
             this.label112.Text = "Microbus : " + Convert.ToString(or.countOrder("Microbus"));
             this.label92.Text = "Pickup : " + Convert.ToString(or.countOrder("Pickup"));
-            this.label90.Text = "Truck : " + Convert.ToString(or.countOrder("Truck"));
+            this.label90.Text = "Truck : " + Convert.ToString(or.countOrder("Truck")); */
+
+
+           /* this.orderGraph.Series["Order"].Points.AddXY("Bike:" + Convert.ToString(or.countOrder("Bike")), or.countOrder("Bike"));
+            this.orderGraph.Series["Order"].Points.AddXY("Car:" + Convert.ToString(or.countOrder("Car")), or.countOrder("Car") );
+            this.orderGraph.Series["Order"].Points.AddXY("Cng:" + Convert.ToString(or.countOrder("Cng")), or.countOrder("Cng"));
+            this.orderGraph.Series["Order"].Points.AddXY("Microbus:" + Convert.ToString(or.countOrder("Microbus")), or.countOrder("Microbus"));
+            this.orderGraph.Series["Order"].Points.AddXY("Pickup:" + Convert.ToString(or.countOrder("Pickup")), or.countOrder("Pickup"));
+            this.orderGraph.Series["Order"].Points.AddXY("Truck:"+ Convert.ToString(or.countOrder("Truck")), or.countOrder("Truck"));*/
+
+
+            this.orderGraph.Series["Order"].Points.AddXY("Bike", or.countOrder("Bike"));
+            this.orderGraph.Series["Order"].Points.AddXY("Car", or.countOrder("Car"));
+            this.orderGraph.Series["Order"].Points.AddXY("Cng", or.countOrder("Cng"));
+            this.orderGraph.Series["Order"].Points.AddXY("Microbus", or.countOrder("Microbus"));
+            this.orderGraph.Series["Order"].Points.AddXY("Pickup", or.countOrder("Pickup"));
+            this.orderGraph.Series["Order"].Points.AddXY("Truck", or.countOrder("Truck"));
+
+
 
 
             //count the total Inventory in groupBox4
 
             InventoryRepository ir = new InventoryRepository();
 
-            this.label73.Text = "Total Inventory : " + Convert.ToString(ir.countAllInventory());
+           /* this.label73.Text = "Total Inventory : " + Convert.ToString(ir.countAllInventory());
             this.label138.Text = "Bike :" + Convert.ToString(ir.countInventory("Bike"));
             this.label135.Text = "Car :" + Convert.ToString(ir.countInventory("Car"));
             this.label136.Text = "Cng :" + Convert.ToString(ir.countInventory("Cng"));
             this.label137.Text = "Microbus :" + Convert.ToString(ir.countInventory("Microbus"));
             this.label134.Text = "Pickup :" + Convert.ToString(ir.countInventory("Pickup"));
-            this.label133.Text = "Truck :" + Convert.ToString(ir.countInventory("Truck"));
+            this.label133.Text = "Truck :" + Convert.ToString(ir.countInventory("Truck")); */
+
+            this.inventoryGraph.Series["Inventory"].Points.AddXY("Bike", ir.countInventory("Bike"));
+            this.inventoryGraph.Series["Inventory"].Points.AddXY("Car",  ir.countInventory("Car"));
+            this.inventoryGraph.Series["Inventory"].Points.AddXY("Cng",  ir.countInventory("Cng"));
+            this.inventoryGraph.Series["Inventory"].Points.AddXY("Microbus", ir.countInventory("Microbus"));
+            this.inventoryGraph.Series["Inventory"].Points.AddXY("Pickup", ir.countInventory("Pickup"));
+            this.inventoryGraph.Series["Inventory"].Points.AddXY("Truck", ir.countInventory("Truck"));
 
 
             //count all shipment 
 
                  ShipmentRepository sr = new ShipmentRepository();
-                 this.label52.Text = "Total Shipment : " + Convert.ToString(sr.countAllShipment());
+               /*  this.label52.Text = "Total Shipment : " + Convert.ToString(sr.countAllShipment());
                  this.label72.Text = "At Origin : " + Convert.ToString(sr.countShipment("At Origin"));
                  this.label66.Text = "On the Way : " + Convert.ToString(sr.countShipment("On the Way"));
                  this.label70.Text = "Stucked : " + Convert.ToString(sr.countShipment("Stuked"));
                  this.label71.Text = "At Destination : " + Convert.ToString(sr.countShipment("At Destination"));
-                 this.label68.Text = "Shipped : " + Convert.ToString(sr.countShipment("Shipped"));
+                 this.label68.Text = "Shipped : " + Convert.ToString(sr.countShipment("Shipped")); */
+
+                 this.shipmentGraph.Series["Shipment"].Points.AddXY("At Origin" , sr.countShipment("At Origin"));
+                 this.shipmentGraph.Series["Shipment"].Points.AddXY("On the Way",sr.countShipment("On the Way"));
+                 this.shipmentGraph.Series["Shipment"].Points.AddXY("Stucked",sr.countShipment("Stuked"));
+                 this.shipmentGraph.Series["Shipment"].Points.AddXY("At Destination",sr.countShipment("At Destination"));
+                 this.shipmentGraph.Series["Shipment"].Points.AddXY("Shipped", sr.countShipment("Shipped"));
 
             //accounting
 
                  AccountingRepository ar = new AccountingRepository();
-                 this.totalCashLabel.Text = "totalCash : " + Convert.ToString(ar.countTotalCash());
+               //  this.totalCashLabel.Text = "totalCash : " + Convert.ToString(ar.countTotalCash());
 
      
 
@@ -135,7 +170,7 @@ namespace ERPApplication
             if (sideMenu.Width == 50)
             {
                 sideMenu.Visible = false;
-                sideMenu.Width = 260;
+                sideMenu.Width = 200;
                 panelTransition.ShowSync(sideMenu);
                 logoTransition.ShowSync(logo);
 
@@ -254,6 +289,30 @@ namespace ERPApplication
         private void bunifuImageButton2_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void hrGraphToggle_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void hrGraph_DoubleClick(object sender, EventArgs e)
+        {
+            this.hrGraph2.Visible = true;
+            this.hrGraph.Visible = false;
+
+        }
+
+        private void hrGraph2_DoubleClick(object sender, EventArgs e)
+        {
+            this.hrGraph2.Visible = false;
+            this.hrGraph.Visible = true;
+
+        }
+
+        private void bunifuThinButton24_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
