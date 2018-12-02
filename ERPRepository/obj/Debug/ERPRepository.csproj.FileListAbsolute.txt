@@ -58,3 +58,11 @@ H:\ElementoryERP\ERPRepository\bin\Debug\ERPRepository.pdb
 H:\ElementoryERP\ERPRepository\obj\Debug\ERPRepository.csprojResolveAssemblyReference.cache
 H:\ElementoryERP\ERPRepository\obj\Debug\ERPRepository.dll
 H:\ElementoryERP\ERPRepository\obj\Debug\ERPRepository.pdb
+A:\Project\ElementoryERP-master\ERPRepository\bin\Debug\ERPDB.mdf
+A:\Project\ElementoryERP-master\ERPRepository\bin\Debug\ERPDB_log.ldf
+A:\Project\ElementoryERP-master\ERPRepository\bin\Debug\ERPRepository.dll.config
+A:\Project\ElementoryERP-master\ERPRepository\bin\Debug\ERPRepository.dll
+A:\Project\ElementoryERP-master\ERPRepository\bin\Debug\ERPRepository.pdb
+A:\Project\ElementoryERP-master\ERPRepository\obj\Debug\ERPRepository.csprojResolveAssemblyReference.cache
+A:\Project\ElementoryERP-master\ERPRepository\obj\Debug\ERPRepository.dll
+A:\Project\ElementoryERP-master\ERPRepository\obj\Debug\ERPRepository.pdb

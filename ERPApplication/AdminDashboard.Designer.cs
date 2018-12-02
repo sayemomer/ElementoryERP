@@ -29,23 +29,20 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea35 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend35 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series35 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            BunifuAnimatorNS.Animation animation14 = new BunifuAnimatorNS.Animation();
-            BunifuAnimatorNS.Animation animation13 = new BunifuAnimatorNS.Animation();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea34 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend34 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series34 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea33 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend33 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series33 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea32 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend32 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series32 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea31 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend31 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series31 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            BunifuAnimatorNS.Animation animation2 = new BunifuAnimatorNS.Animation();
+            BunifuAnimatorNS.Animation animation1 = new BunifuAnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminDashboard));
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.sideMenu = new System.Windows.Forms.Panel();
@@ -66,6 +63,9 @@
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.dashbar = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.shipmentGraph = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.inventoryGraph = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.orderGraph = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.hrGraph = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.label28 = new System.Windows.Forms.Label();
@@ -157,16 +157,6 @@
             this.label26 = new System.Windows.Forms.Label();
             this.logoTransition = new BunifuAnimatorNS.BunifuTransition(this.components);
             this.panelTransition = new BunifuAnimatorNS.BunifuTransition(this.components);
-            this.hrGraph2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.orderGraph = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.inventoryGraph = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.shipmentGraph = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuThinButton22 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuThinButton23 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuThinButton24 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuThinButton25 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.sideMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.menuButton)).BeginInit();
@@ -174,17 +164,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
             this.dashbar.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.shipmentGraph)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.inventoryGraph)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.orderGraph)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.hrGraph)).BeginInit();
             this.groupBox7.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.hrGraph2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.orderGraph)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.inventoryGraph)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.shipmentGraph)).BeginInit();
-            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // bunifuElipse1
@@ -695,14 +683,9 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Silver;
-            this.panel1.Controls.Add(this.bunifuThinButton25);
-            this.panel1.Controls.Add(this.bunifuThinButton23);
-            this.panel1.Controls.Add(this.bunifuThinButton24);
-            this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.shipmentGraph);
             this.panel1.Controls.Add(this.inventoryGraph);
             this.panel1.Controls.Add(this.orderGraph);
-            this.panel1.Controls.Add(this.hrGraph2);
             this.panel1.Controls.Add(this.hrGraph);
             this.panelTransition.SetDecoration(this.panel1, BunifuAnimatorNS.DecorationType.None);
             this.logoTransition.SetDecoration(this.panel1, BunifuAnimatorNS.DecorationType.None);
@@ -711,6 +694,84 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(886, 614);
             this.panel1.TabIndex = 86;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint_1);
+            // 
+            // shipmentGraph
+            // 
+            this.shipmentGraph.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.shipmentGraph.BackHatchStyle = System.Windows.Forms.DataVisualization.Charting.ChartHatchStyle.DashedVertical;
+            this.shipmentGraph.BackImageTransparentColor = System.Drawing.Color.White;
+            this.shipmentGraph.BackSecondaryColor = System.Drawing.Color.White;
+            this.shipmentGraph.BorderlineColor = System.Drawing.Color.WhiteSmoke;
+            chartArea1.Name = "ChartArea1";
+            this.shipmentGraph.ChartAreas.Add(chartArea1);
+            this.panelTransition.SetDecoration(this.shipmentGraph, BunifuAnimatorNS.DecorationType.None);
+            this.logoTransition.SetDecoration(this.shipmentGraph, BunifuAnimatorNS.DecorationType.None);
+            legend1.Name = "Legend1";
+            this.shipmentGraph.Legends.Add(legend1);
+            this.shipmentGraph.Location = new System.Drawing.Point(237, 420);
+            this.shipmentGraph.Name = "shipmentGraph";
+            this.shipmentGraph.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.EarthTones;
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
+            series1.IsValueShownAsLabel = true;
+            series1.Legend = "Legend1";
+            series1.Name = "Shipment";
+            series1.YValuesPerPoint = 4;
+            this.shipmentGraph.Series.Add(series1);
+            this.shipmentGraph.Size = new System.Drawing.Size(202, 175);
+            this.shipmentGraph.TabIndex = 91;
+            // 
+            // inventoryGraph
+            // 
+            this.inventoryGraph.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.inventoryGraph.BackHatchStyle = System.Windows.Forms.DataVisualization.Charting.ChartHatchStyle.DashedVertical;
+            this.inventoryGraph.BackImageTransparentColor = System.Drawing.Color.White;
+            this.inventoryGraph.BackSecondaryColor = System.Drawing.Color.White;
+            this.inventoryGraph.BorderlineColor = System.Drawing.Color.WhiteSmoke;
+            chartArea2.Name = "ChartArea1";
+            this.inventoryGraph.ChartAreas.Add(chartArea2);
+            this.panelTransition.SetDecoration(this.inventoryGraph, BunifuAnimatorNS.DecorationType.None);
+            this.logoTransition.SetDecoration(this.inventoryGraph, BunifuAnimatorNS.DecorationType.None);
+            legend2.Name = "Legend1";
+            this.inventoryGraph.Legends.Add(legend2);
+            this.inventoryGraph.Location = new System.Drawing.Point(19, 23);
+            this.inventoryGraph.Name = "inventoryGraph";
+            this.inventoryGraph.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
+            series2.IsValueShownAsLabel = true;
+            series2.Legend = "Legend1";
+            series2.Name = "Inventory";
+            this.inventoryGraph.Series.Add(series2);
+            this.inventoryGraph.Size = new System.Drawing.Size(843, 376);
+            this.inventoryGraph.TabIndex = 90;
+            // 
+            // orderGraph
+            // 
+            this.orderGraph.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.orderGraph.BackHatchStyle = System.Windows.Forms.DataVisualization.Charting.ChartHatchStyle.DashedVertical;
+            this.orderGraph.BackImageTransparentColor = System.Drawing.Color.White;
+            this.orderGraph.BackSecondaryColor = System.Drawing.Color.White;
+            this.orderGraph.BorderlineColor = System.Drawing.Color.WhiteSmoke;
+            chartArea3.Name = "ChartArea1";
+            this.orderGraph.ChartAreas.Add(chartArea3);
+            this.panelTransition.SetDecoration(this.orderGraph, BunifuAnimatorNS.DecorationType.None);
+            this.logoTransition.SetDecoration(this.orderGraph, BunifuAnimatorNS.DecorationType.None);
+            legend3.Name = "Legend1";
+            this.orderGraph.Legends.Add(legend3);
+            this.orderGraph.Location = new System.Drawing.Point(19, 420);
+            this.orderGraph.Name = "orderGraph";
+            this.orderGraph.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Chocolate;
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
+            series3.IsValueShownAsLabel = true;
+            series3.Legend = "Legend1";
+            series3.Name = "Order";
+            series3.YValuesPerPoint = 4;
+            this.orderGraph.Series.Add(series3);
+            this.orderGraph.Size = new System.Drawing.Size(202, 175);
+            this.orderGraph.TabIndex = 89;
             // 
             // hrGraph
             // 
@@ -719,22 +780,22 @@
             this.hrGraph.BackImageTransparentColor = System.Drawing.Color.White;
             this.hrGraph.BackSecondaryColor = System.Drawing.Color.White;
             this.hrGraph.BorderlineColor = System.Drawing.Color.WhiteSmoke;
-            chartArea35.Name = "ChartArea1";
-            this.hrGraph.ChartAreas.Add(chartArea35);
+            chartArea4.Name = "ChartArea1";
+            this.hrGraph.ChartAreas.Add(chartArea4);
             this.panelTransition.SetDecoration(this.hrGraph, BunifuAnimatorNS.DecorationType.None);
             this.logoTransition.SetDecoration(this.hrGraph, BunifuAnimatorNS.DecorationType.None);
-            legend35.Name = "Legend1";
-            this.hrGraph.Legends.Add(legend35);
-            this.hrGraph.Location = new System.Drawing.Point(548, 7);
+            legend4.Name = "Legend1";
+            this.hrGraph.Legends.Add(legend4);
+            this.hrGraph.Location = new System.Drawing.Point(462, 419);
             this.hrGraph.Name = "hrGraph";
             this.hrGraph.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
-            series35.ChartArea = "ChartArea1";
-            series35.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-            series35.IsValueShownAsLabel = true;
-            series35.Legend = "Legend1";
-            series35.Name = "emp";
-            this.hrGraph.Series.Add(series35);
-            this.hrGraph.Size = new System.Drawing.Size(163, 106);
+            series4.ChartArea = "ChartArea1";
+            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series4.IsValueShownAsLabel = true;
+            series4.Legend = "Legend1";
+            series4.Name = "emp";
+            this.hrGraph.Series.Add(series4);
+            this.hrGraph.Size = new System.Drawing.Size(400, 175);
             this.hrGraph.TabIndex = 86;
             this.hrGraph.Text = "yl";
             this.hrGraph.DoubleClick += new System.EventHandler(this.hrGraph_DoubleClick);
@@ -1965,295 +2026,43 @@
             // 
             this.logoTransition.AnimationType = BunifuAnimatorNS.AnimationType.VertSlide;
             this.logoTransition.Cursor = null;
-            animation14.AnimateOnlyDifferences = true;
-            animation14.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation14.BlindCoeff")));
-            animation14.LeafCoeff = 0F;
-            animation14.MaxTime = 1F;
-            animation14.MinTime = 0F;
-            animation14.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation14.MosaicCoeff")));
-            animation14.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation14.MosaicShift")));
-            animation14.MosaicSize = 0;
-            animation14.Padding = new System.Windows.Forms.Padding(0);
-            animation14.RotateCoeff = 0F;
-            animation14.RotateLimit = 0F;
-            animation14.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation14.ScaleCoeff")));
-            animation14.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation14.SlideCoeff")));
-            animation14.TimeCoeff = 0F;
-            animation14.TransparencyCoeff = 0F;
-            this.logoTransition.DefaultAnimation = animation14;
+            animation2.AnimateOnlyDifferences = true;
+            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
+            animation2.LeafCoeff = 0F;
+            animation2.MaxTime = 1F;
+            animation2.MinTime = 0F;
+            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
+            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
+            animation2.MosaicSize = 0;
+            animation2.Padding = new System.Windows.Forms.Padding(0);
+            animation2.RotateCoeff = 0F;
+            animation2.RotateLimit = 0F;
+            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
+            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
+            animation2.TimeCoeff = 0F;
+            animation2.TransparencyCoeff = 0F;
+            this.logoTransition.DefaultAnimation = animation2;
             // 
             // panelTransition
             // 
             this.panelTransition.AnimationType = BunifuAnimatorNS.AnimationType.HorizSlide;
             this.panelTransition.Cursor = null;
-            animation13.AnimateOnlyDifferences = true;
-            animation13.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation13.BlindCoeff")));
-            animation13.LeafCoeff = 0F;
-            animation13.MaxTime = 1F;
-            animation13.MinTime = 0F;
-            animation13.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation13.MosaicCoeff")));
-            animation13.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation13.MosaicShift")));
-            animation13.MosaicSize = 0;
-            animation13.Padding = new System.Windows.Forms.Padding(0);
-            animation13.RotateCoeff = 0F;
-            animation13.RotateLimit = 0F;
-            animation13.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation13.ScaleCoeff")));
-            animation13.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation13.SlideCoeff")));
-            animation13.TimeCoeff = 0F;
-            animation13.TransparencyCoeff = 0F;
-            this.panelTransition.DefaultAnimation = animation13;
-            // 
-            // hrGraph2
-            // 
-            this.hrGraph2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.hrGraph2.BackHatchStyle = System.Windows.Forms.DataVisualization.Charting.ChartHatchStyle.DashedVertical;
-            this.hrGraph2.BackImageTransparentColor = System.Drawing.Color.White;
-            this.hrGraph2.BackSecondaryColor = System.Drawing.Color.White;
-            this.hrGraph2.BorderlineColor = System.Drawing.Color.WhiteSmoke;
-            chartArea34.Name = "ChartArea1";
-            this.hrGraph2.ChartAreas.Add(chartArea34);
-            this.panelTransition.SetDecoration(this.hrGraph2, BunifuAnimatorNS.DecorationType.None);
-            this.logoTransition.SetDecoration(this.hrGraph2, BunifuAnimatorNS.DecorationType.None);
-            legend34.Name = "Legend1";
-            this.hrGraph2.Legends.Add(legend34);
-            this.hrGraph2.Location = new System.Drawing.Point(379, 7);
-            this.hrGraph2.Name = "hrGraph2";
-            this.hrGraph2.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SemiTransparent;
-            series34.ChartArea = "ChartArea1";
-            series34.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-            series34.IsValueShownAsLabel = true;
-            series34.Legend = "Legend1";
-            series34.Name = "Status";
-            this.hrGraph2.Series.Add(series34);
-            this.hrGraph2.Size = new System.Drawing.Size(151, 91);
-            this.hrGraph2.TabIndex = 88;
-            this.hrGraph2.DoubleClick += new System.EventHandler(this.hrGraph2_DoubleClick);
-            // 
-            // orderGraph
-            // 
-            this.orderGraph.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.orderGraph.BackHatchStyle = System.Windows.Forms.DataVisualization.Charting.ChartHatchStyle.DashedVertical;
-            this.orderGraph.BackImageTransparentColor = System.Drawing.Color.White;
-            this.orderGraph.BackSecondaryColor = System.Drawing.Color.White;
-            this.orderGraph.BorderlineColor = System.Drawing.Color.WhiteSmoke;
-            chartArea33.Name = "ChartArea1";
-            this.orderGraph.ChartAreas.Add(chartArea33);
-            this.panelTransition.SetDecoration(this.orderGraph, BunifuAnimatorNS.DecorationType.None);
-            this.logoTransition.SetDecoration(this.orderGraph, BunifuAnimatorNS.DecorationType.None);
-            legend33.Name = "Legend1";
-            this.orderGraph.Legends.Add(legend33);
-            this.orderGraph.Location = new System.Drawing.Point(731, 6);
-            this.orderGraph.Name = "orderGraph";
-            this.orderGraph.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Chocolate;
-            series33.ChartArea = "ChartArea1";
-            series33.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
-            series33.IsValueShownAsLabel = true;
-            series33.Legend = "Legend1";
-            series33.Name = "Order";
-            series33.YValuesPerPoint = 4;
-            this.orderGraph.Series.Add(series33);
-            this.orderGraph.Size = new System.Drawing.Size(137, 99);
-            this.orderGraph.TabIndex = 89;
-            // 
-            // inventoryGraph
-            // 
-            this.inventoryGraph.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.inventoryGraph.BackHatchStyle = System.Windows.Forms.DataVisualization.Charting.ChartHatchStyle.DashedVertical;
-            this.inventoryGraph.BackImageTransparentColor = System.Drawing.Color.White;
-            this.inventoryGraph.BackSecondaryColor = System.Drawing.Color.White;
-            this.inventoryGraph.BorderlineColor = System.Drawing.Color.WhiteSmoke;
-            chartArea32.Name = "ChartArea1";
-            this.inventoryGraph.ChartAreas.Add(chartArea32);
-            this.panelTransition.SetDecoration(this.inventoryGraph, BunifuAnimatorNS.DecorationType.None);
-            this.logoTransition.SetDecoration(this.inventoryGraph, BunifuAnimatorNS.DecorationType.None);
-            legend32.Name = "Legend1";
-            this.inventoryGraph.Legends.Add(legend32);
-            this.inventoryGraph.Location = new System.Drawing.Point(562, 149);
-            this.inventoryGraph.Name = "inventoryGraph";
-            this.inventoryGraph.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
-            series32.ChartArea = "ChartArea1";
-            series32.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
-            series32.IsValueShownAsLabel = true;
-            series32.Legend = "Legend1";
-            series32.Name = "Inventory";
-            this.inventoryGraph.Series.Add(series32);
-            this.inventoryGraph.Size = new System.Drawing.Size(183, 87);
-            this.inventoryGraph.TabIndex = 90;
-            // 
-            // shipmentGraph
-            // 
-            this.shipmentGraph.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.shipmentGraph.BackHatchStyle = System.Windows.Forms.DataVisualization.Charting.ChartHatchStyle.DashedVertical;
-            this.shipmentGraph.BackImageTransparentColor = System.Drawing.Color.White;
-            this.shipmentGraph.BackSecondaryColor = System.Drawing.Color.White;
-            this.shipmentGraph.BorderlineColor = System.Drawing.Color.WhiteSmoke;
-            chartArea31.Name = "ChartArea1";
-            this.shipmentGraph.ChartAreas.Add(chartArea31);
-            this.panelTransition.SetDecoration(this.shipmentGraph, BunifuAnimatorNS.DecorationType.None);
-            this.logoTransition.SetDecoration(this.shipmentGraph, BunifuAnimatorNS.DecorationType.None);
-            legend31.Name = "Legend1";
-            this.shipmentGraph.Legends.Add(legend31);
-            this.shipmentGraph.Location = new System.Drawing.Point(383, 143);
-            this.shipmentGraph.Name = "shipmentGraph";
-            this.shipmentGraph.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.EarthTones;
-            series31.ChartArea = "ChartArea1";
-            series31.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
-            series31.IsValueShownAsLabel = true;
-            series31.Legend = "Legend1";
-            series31.Name = "Shipment";
-            series31.YValuesPerPoint = 4;
-            this.shipmentGraph.Series.Add(series31);
-            this.shipmentGraph.Size = new System.Drawing.Size(149, 93);
-            this.shipmentGraph.TabIndex = 91;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.bunifuThinButton22);
-            this.panel2.Controls.Add(this.bunifuThinButton21);
-            this.panelTransition.SetDecoration(this.panel2, BunifuAnimatorNS.DecorationType.None);
-            this.logoTransition.SetDecoration(this.panel2, BunifuAnimatorNS.DecorationType.None);
-            this.panel2.Location = new System.Drawing.Point(9, 13);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(301, 176);
-            this.panel2.TabIndex = 92;
-            // 
-            // bunifuThinButton21
-            // 
-            this.bunifuThinButton21.ActiveBorderThickness = 1;
-            this.bunifuThinButton21.ActiveCornerRadius = 20;
-            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
-            this.bunifuThinButton21.ButtonText = "";
-            this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panelTransition.SetDecoration(this.bunifuThinButton21, BunifuAnimatorNS.DecorationType.None);
-            this.logoTransition.SetDecoration(this.bunifuThinButton21, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuThinButton21.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuThinButton21.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton21.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.IdleBorderThickness = 1;
-            this.bunifuThinButton21.IdleCornerRadius = 20;
-            this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.Gray;
-            this.bunifuThinButton21.Location = new System.Drawing.Point(0, 0);
-            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton21.Name = "bunifuThinButton21";
-            this.bunifuThinButton21.Size = new System.Drawing.Size(301, 176);
-            this.bunifuThinButton21.TabIndex = 0;
-            this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuThinButton22
-            // 
-            this.bunifuThinButton22.ActiveBorderThickness = 1;
-            this.bunifuThinButton22.ActiveCornerRadius = 20;
-            this.bunifuThinButton22.ActiveFillColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton22.ActiveForecolor = System.Drawing.Color.Silver;
-            this.bunifuThinButton22.ActiveLineColor = System.Drawing.Color.Gray;
-            this.bunifuThinButton22.BackColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton22.BackgroundImage")));
-            this.bunifuThinButton22.ButtonText = "";
-            this.bunifuThinButton22.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panelTransition.SetDecoration(this.bunifuThinButton22, BunifuAnimatorNS.DecorationType.None);
-            this.logoTransition.SetDecoration(this.bunifuThinButton22, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuThinButton22.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuThinButton22.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton22.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton22.IdleBorderThickness = 1;
-            this.bunifuThinButton22.IdleCornerRadius = 20;
-            this.bunifuThinButton22.IdleFillColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton22.IdleForecolor = System.Drawing.Color.Silver;
-            this.bunifuThinButton22.IdleLineColor = System.Drawing.Color.Gray;
-            this.bunifuThinButton22.Location = new System.Drawing.Point(0, 0);
-            this.bunifuThinButton22.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton22.Name = "bunifuThinButton22";
-            this.bunifuThinButton22.Size = new System.Drawing.Size(301, 176);
-            this.bunifuThinButton22.TabIndex = 1;
-            this.bunifuThinButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuThinButton23
-            // 
-            this.bunifuThinButton23.ActiveBorderThickness = 1;
-            this.bunifuThinButton23.ActiveCornerRadius = 20;
-            this.bunifuThinButton23.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton23.ActiveForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton23.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton23.BackgroundImage")));
-            this.bunifuThinButton23.ButtonText = "";
-            this.bunifuThinButton23.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panelTransition.SetDecoration(this.bunifuThinButton23, BunifuAnimatorNS.DecorationType.None);
-            this.logoTransition.SetDecoration(this.bunifuThinButton23, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuThinButton23.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton23.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton23.IdleBorderThickness = 1;
-            this.bunifuThinButton23.IdleCornerRadius = 20;
-            this.bunifuThinButton23.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton23.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton23.IdleLineColor = System.Drawing.Color.Gray;
-            this.bunifuThinButton23.Location = new System.Drawing.Point(9, 427);
-            this.bunifuThinButton23.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton23.Name = "bunifuThinButton23";
-            this.bunifuThinButton23.Size = new System.Drawing.Size(301, 176);
-            this.bunifuThinButton23.TabIndex = 2;
-            this.bunifuThinButton23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuThinButton24
-            // 
-            this.bunifuThinButton24.ActiveBorderThickness = 1;
-            this.bunifuThinButton24.ActiveCornerRadius = 20;
-            this.bunifuThinButton24.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton24.ActiveForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton24.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton24.BackColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton24.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton24.BackgroundImage")));
-            this.bunifuThinButton24.ButtonText = "";
-            this.bunifuThinButton24.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panelTransition.SetDecoration(this.bunifuThinButton24, BunifuAnimatorNS.DecorationType.None);
-            this.logoTransition.SetDecoration(this.bunifuThinButton24, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuThinButton24.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton24.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton24.IdleBorderThickness = 1;
-            this.bunifuThinButton24.IdleCornerRadius = 20;
-            this.bunifuThinButton24.IdleFillColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton24.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton24.IdleLineColor = System.Drawing.Color.Gray;
-            this.bunifuThinButton24.Location = new System.Drawing.Point(8, 193);
-            this.bunifuThinButton24.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton24.Name = "bunifuThinButton24";
-            this.bunifuThinButton24.Size = new System.Drawing.Size(302, 234);
-            this.bunifuThinButton24.TabIndex = 3;
-            this.bunifuThinButton24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuThinButton24.Click += new System.EventHandler(this.bunifuThinButton24_Click);
-            // 
-            // bunifuThinButton25
-            // 
-            this.bunifuThinButton25.ActiveBorderThickness = 1;
-            this.bunifuThinButton25.ActiveCornerRadius = 20;
-            this.bunifuThinButton25.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton25.ActiveForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton25.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton25.BackColor = System.Drawing.Color.Silver;
-            this.bunifuThinButton25.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton25.BackgroundImage")));
-            this.bunifuThinButton25.ButtonText = "";
-            this.bunifuThinButton25.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panelTransition.SetDecoration(this.bunifuThinButton25, BunifuAnimatorNS.DecorationType.None);
-            this.logoTransition.SetDecoration(this.bunifuThinButton25, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuThinButton25.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton25.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton25.IdleBorderThickness = 1;
-            this.bunifuThinButton25.IdleCornerRadius = 20;
-            this.bunifuThinButton25.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton25.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton25.IdleLineColor = System.Drawing.Color.Gray;
-            this.bunifuThinButton25.Location = new System.Drawing.Point(316, 427);
-            this.bunifuThinButton25.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton25.Name = "bunifuThinButton25";
-            this.bunifuThinButton25.Size = new System.Drawing.Size(556, 176);
-            this.bunifuThinButton25.TabIndex = 93;
-            this.bunifuThinButton25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            animation1.AnimateOnlyDifferences = true;
+            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
+            animation1.LeafCoeff = 0F;
+            animation1.MaxTime = 1F;
+            animation1.MinTime = 0F;
+            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
+            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
+            animation1.MosaicSize = 0;
+            animation1.Padding = new System.Windows.Forms.Padding(0);
+            animation1.RotateCoeff = 0F;
+            animation1.RotateLimit = 0F;
+            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
+            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
+            animation1.TimeCoeff = 0F;
+            animation1.TransparencyCoeff = 0F;
+            this.panelTransition.DefaultAnimation = animation1;
             // 
             // AdminDashboard
             // 
@@ -2277,6 +2086,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).EndInit();
             this.dashbar.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.shipmentGraph)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.inventoryGraph)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.orderGraph)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.hrGraph)).EndInit();
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
@@ -2288,11 +2100,6 @@
             this.groupBox3.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.hrGraph2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.orderGraph)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.inventoryGraph)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.shipmentGraph)).EndInit();
-            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -2409,15 +2216,8 @@
         private System.Windows.Forms.Label label18;
         internal Bunifu.Framework.UI.BunifuFlatButton ITtab;
         private System.Windows.Forms.DataVisualization.Charting.Chart hrGraph;
-        private System.Windows.Forms.DataVisualization.Charting.Chart hrGraph2;
         private System.Windows.Forms.DataVisualization.Charting.Chart orderGraph;
         private System.Windows.Forms.DataVisualization.Charting.Chart inventoryGraph;
         private System.Windows.Forms.DataVisualization.Charting.Chart shipmentGraph;
-        private System.Windows.Forms.Panel panel2;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton24;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton23;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton22;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton25;
     }
 }

@@ -15,7 +15,7 @@ namespace ERPRepository
         public DatabaseConnection()
         {
 
-            string connectionString = @"Data Source=(LocalDB)\v11.0;AttachDbFilename=H:\ElementoryERP\ERPRepository\ERPDB.mdf;Integrated Security=True;Connect Timeout=30";
+            string connectionString = @"Data Source=(LocalDB)\v11.0;AttachDbFilename=A:\Project\ElementoryERP-master\ERPRepository\ERPDB.mdf;Integrated Security=True;Connect Timeout=30";
             myConnection = new SqlConnection(connectionString);
         }
         public void ConnectWithDB()

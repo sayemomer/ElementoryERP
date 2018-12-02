@@ -185,19 +185,29 @@ namespace ERPRepository
         {
 
             string query = "SELECT Volume from inventory WHERE ProductId='"+id+"' ";
-            int volume = 0;
+            
             DatabaseConnection dc = new DatabaseConnection();
             dc.ConnectWithDB();
             SqlDataReader sdr = dc.GetData(query);
 
             if (sdr.Read())
             {
+                // int volume = 0;
+                int volume = Convert.ToInt32(sdr["Volume"]);
+                //Console.WriteLine(volume);
+                
 
-                volume = Convert.ToInt32(sdr["Volume"]);
+                return volume;
+               
 
             }
+            else
+            {
+                return 0;
+            }
+
             dc.CloseConnection();
-            return volume;
+            
 
         }
 

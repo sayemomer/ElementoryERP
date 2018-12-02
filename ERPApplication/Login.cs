@@ -44,7 +44,7 @@ namespace ERPApplication
 
         private void loginBtn_Click(object sender, EventArgs e)
         {
-            /*if (this.LoginPassword.Text != "" && this.LoginId.Text != "")
+            if (this.LoginPassword.Text != "" && this.LoginId.Text != "")
             {
                 EmployeeR user = new EmployeeR();
                 user.EmployeeId = LoginId.Text.Trim();
@@ -117,12 +117,12 @@ namespace ERPApplication
             else
             {
                 MessageBox.Show("Insert ID or Password", "Login Failed");
-            }*/
+            }
 
 
-            AdminDashboard admindash = new AdminDashboard();
-            admindash.Show();
-            this.Hide();
+            /*AdminDashboard admin = new AdminDashboard();
+            admin.Show();
+            this.Hide();*/
 
            
         }

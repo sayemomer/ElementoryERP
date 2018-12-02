@@ -51,7 +51,7 @@ namespace ERPApplication
               this.label119.Text += Convert.ToString(m.countAllStatus("Probationary"));
               this.label118.Text += Convert.ToString(m.countAllStatus("Intern"));*/
 
-            this.hrGraph2.Visible = false;
+            
 
             this.hrGraph.Series["emp"].Points.AddXY("Admin", m.countEmployee("Admin") );
             this.hrGraph.Series["emp"].Points.AddXY("Sales", m.countEmployee("Sales"));
@@ -60,10 +60,6 @@ namespace ERPApplication
             this.hrGraph.Series["emp"].Points.AddXY("Accounts", m.countEmployee("Accounting"));
             this.hrGraph.Series["emp"].Points.AddXY("Finance", m.countEmployee("Finance")); 
             this.hrGraph.Series["emp"].Points.AddXY("Marketing", m.countEmployee("Marketing"));
-
-            this.hrGraph2.Series["Status"].Points.AddXY("Full Time", m.countAllStatus("Full Time"));
-            this.hrGraph2.Series["Status"].Points.AddXY("Probationary", m.countAllStatus("Probationary"));
-            this.hrGraph2.Series["Status"].Points.AddXY("Intern", m.countAllStatus("Intern"));
 
             //sales Info
 
@@ -298,19 +294,23 @@ namespace ERPApplication
 
         private void hrGraph_DoubleClick(object sender, EventArgs e)
         {
-            this.hrGraph2.Visible = true;
+            
             this.hrGraph.Visible = false;
 
         }
 
         private void hrGraph2_DoubleClick(object sender, EventArgs e)
         {
-            this.hrGraph2.Visible = false;
             this.hrGraph.Visible = true;
 
         }
 
         private void bunifuThinButton24_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint_1(object sender, PaintEventArgs e)
         {
 
         }
